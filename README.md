@@ -12,6 +12,8 @@ This algorithm is relatively **simple**, and a solution to any valid Sudoku prob
 
 # Java Implementation
 
+[![](https://repl.it/badge/github/grrlic/sudoku-solver)](https://repl.it/@grrlic/sudoku-solver#Main.java "run on repl.it")
+
 Two major functionalities built is: `isValid()` and `solve()`, where the first one would call its helper functions to check any constraints violation, and the latter contains the backtracking algorithm that heavily depends on `isValid()` return value.
 
 ![](./sudoku.gif)
